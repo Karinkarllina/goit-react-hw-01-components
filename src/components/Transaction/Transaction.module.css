@@ -1,0 +1,29 @@
+.transactionHistory {
+    table-layout: fixed;
+    width: 80%;
+    text-align: center;
+    margin-top: 80px;
+    border: 1px solid rgb(94, 93, 93);
+    
+}
+
+.transactionTableHead {
+    text-transform: uppercase;
+
+}
+.tableHeadItem  {
+    background-color: rgb(108, 210, 210);
+    padding: 10px 0;   
+}
+
+.tableBodyItem {
+    padding: 10px 0;
+}
+
+.tableBodyList:nth-child(odd) {
+    background-color: rgb(214, 224, 229);
+}
+
+.tableBodyList:nth-child(even) {
+    background-color: rgb(202, 206, 207);
+}
