@@ -6,6 +6,7 @@ import friends from './Friends/friends.json';
 import { FriendList } from './Friends/FriendList';
 import transactions from './Transaction/transactions.json';
 import { TransactionHistory } from './Transaction/TransactionHistory';
+import css from './App.module.css';
 
 
 
@@ -13,7 +14,7 @@ import { TransactionHistory } from './Transaction/TransactionHistory';
 
 export const App = () => {
   return (
-    <div>
+    <div className={css.mainSection}>
       <Profile
         username = {user.username}
         tag = {user.tag}
