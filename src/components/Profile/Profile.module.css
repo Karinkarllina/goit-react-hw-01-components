@@ -29,7 +29,16 @@
             0 1em 2em -0.75em rgba(100, 100, 100, 0.75),
             0 1em 3em -0.5em rgba(100, 100, 100, 0.5),
             0 3em 3em -0.25em rgba(100, 100, 100, 0.2);
+    scale: 1;
+    transition: scale 350ms;
 }
+
+.avatar:hover,
+.avatar:focus {
+    scale: 1.07;
+    transition: scale 350ms;
+}
+
 
 .name {
     font-family: 'Oxygen';
@@ -37,6 +46,11 @@
     font-weight: 700;
     margin-bottom: 15px;
     color: rgb(43, 42, 42);
+}
+
+.name:hover,
+.name:focus {
+    color: rgb(54, 22, 162);
 }
 
 .tag {
@@ -47,6 +61,13 @@
     font-family: 'Oxygen';
 }
 
+.tag:hover,
+.tag:focus {
+    color: rgb(54, 22, 162);
+}
+
+
+
 .location {
     margin-top: 0;
     color: rgb(94, 93, 93);
@@ -55,6 +76,12 @@
     margin-bottom: 30px;
     font-family: 'Oxygen';
 }
+
+.location:hover,
+.location:focus {
+    color: rgb(54, 22, 162);
+}
+
 
 .stats {
     display: flex;
@@ -98,4 +125,15 @@
     font-size: 18px;
     font-weight: 700;
 
+}
+
+
+.label:hover,
+.label:focus {
+    color: rgb(54, 22, 162);
+}
+
+.quantity:hover,
+.quantity:focus {
+    color: rgb(54, 22, 162);
 }
